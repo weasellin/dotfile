@@ -1,1 +1,1 @@
-# dotfile
+# dotfileMy working environment settings### .vimrcHow to install:    git clone git@github.com:weasellin/dotfile.git    cp dotfile/.vimrc ~/.vimrcThe content of the .vimrc settings were refered to the following examples:* https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim* https://dougblack.io/words/a-good-vimrc.html* http://vimcasts.org/episodes/show-invisibles/* https://stackoverflow.com/a/4789615
