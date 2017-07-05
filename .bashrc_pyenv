@@ -1,0 +1,4 @@
+# Load pyenv automatically by adding
+export PATH="/home/weasellin/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
