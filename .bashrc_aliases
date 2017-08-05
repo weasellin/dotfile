@@ -1,4 +1,4 @@
-alias ghost-run="docker run \
+alias ansel-ghost-run="docker run \
 		--name ansel-ghost \
 		-p 2368:2368 \
 		-d \
@@ -6,11 +6,11 @@ alias ghost-run="docker run \
 		-v ${GHOST_DATA_DIR}:/var/lib/ghost \
 		ghost"
 
-alias ghost-publish="cd ${GHOST_DATA_DIR} \
+alias ansel-ghost-publish="cd ${GHOST_DATA_DIR} \
 	&& buster generate --domain 'ghost.ansellin.club' --target-domain 'weasellin.github.io' \
 	&& buster deploy"
 
-alias jupyterlab-run="docker run \
+alias ansel-jupyterlab-run="docker run \
 		--name ansel-jupyterlab \
 		-p 8888:8888 \
 		-d \
@@ -24,7 +24,7 @@ alias jupyterlab-run="docker run \
 		jupyter lab \
 		--NotebookApp.token='${JUPYTER_TOKEN}'"
 
-alias nginx-run="docker run \
+alias ansel-nginx-run="docker run \
 		--name ansel-nginx \
 		-p 80:80 \
 		-d \
