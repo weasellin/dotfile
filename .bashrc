@@ -121,3 +121,9 @@ fi
 if [ -f ~/.bashrc_pyenv ]; then
     . ~/.bashrc_pyenv
 fi
+
+export PATH=${PATH}:${HOME}/bin
+
+export GHOST_DATA_DIR=${HOME}/service/ghost_data
+export JUPYTER_DATA_DIR=${HOME}/service/jupyter_data
+export NGINX_CONF_DIR=${HOME}/service/nginx_conf
